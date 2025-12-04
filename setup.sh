@@ -1,5 +1,5 @@
-sudo apt install dkms
-sudo apt install hailo-all
+sudo apt install -y dkms
+sudo apt install -y hailo-all
 hailortcli fw-control identify
 cd Desktop/
 git clone https://github.com/andreypavlo21231/RaspH_conf.git
